@@ -1,0 +1,294 @@
+.banner__home {
+    // background: linear-gradient(to right, #5e3bed 0%, #826cfd 100%);
+    background: $bg-section url(img/banner-bg-6-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+
+    &__columnLeft {
+         
+        &__title {
+            padding-top: 120px;
+
+            h2 {
+                font-family: $fonte-base;
+                font-weight: 700;
+                font-size: 65px;
+                color: #383838;
+                line-height: 70px;
+                text-transform: uppercase;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-family: $fonte-base;
+                font-size: 30px;
+                line-height: 36px;
+                margin-bottom: 25px;
+                font-weight: 400;
+                color: rgba(56,56,56,.6);
+            }
+
+            .group-btn {
+                a:nth-child(1) {
+                    margin-right: 20px;
+                }
+                .btn-wrapper {
+                    color: #383838;
+                    font-weight: 700;
+                    font-size: 12px;
+                    border-radius: 28px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    width: 190px;
+                    height: 55px;
+                    line-height: 51px;
+                    display: inline-block;
+                    background-color: transparent;
+                    border: solid 2px #000;
+                }
+
+            }
+        }
+    }
+
+    &__columnRight {
+        text-align: right;
+    }   
+
+}
+
+/* Features */
+
+.home__features {
+    background: $bg-section;
+    &__title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+
+        h3 {
+            color: #343434;
+            font-size: 36px;
+            line-height: 40px;
+            font-weight: $font-medium;
+        }
+
+        span {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: $fonte-base;
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 14px;
+            color: #fbb406;
+        }
+    }
+
+    &__cards {
+
+        & .card-item {
+            text-align: center;
+            padding: 70.5px 98px;
+            background-color: #fff;
+            display: block;
+
+            h3 {
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+/* End Features */
+
+/* App */
+.home__app {
+    background: $bg-section;
+
+    &__columnRight {
+        padding-top: 60px;
+
+        span {
+            color: #fbb406;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 36px;
+            line-height: 40px;
+            font-weight: 600;
+            color: #343434;
+            margin-bottom: 60px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 500;
+            color: #555;
+            line-height: 36px;
+            margin-bottom: 40px;
+        }
+
+        .btn-wrapper {
+            background: -webkit-gradient(left top, right top, color-stop(0%, #ffb907), color-stop(100%, #ffd84f));
+            background: -webkit-gradient(linear, left top, right top, from(#ffb907), to(#ffd84f));
+            background: linear-gradient(to right, #ffb907 0%, #ffd84f 100%);
+            color: #343434;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            text-align: center;
+            width: 190px;
+            height: 55px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 27.5px;
+            font-weight: 700;
+            text-decoration: none;
+
+            &:hover {
+                background: -webkit-gradient(left top, right top, color-stop(0%, #ffb907), color-stop(100%, #ffd84f));
+                background: -webkit-gradient(linear, left top, right top, from(#ffb907), to(#ffd84f));
+                background: linear-gradient(to right, #343434 0%, #343434 100%);
+                color: #fff;
+                transition: all .5s;
+            }
+        }
+    }
+
+    .product-one {
+        padding-bottom: 60px;
+    }
+
+    .product-two {
+        padding-top: 60px;
+    }
+
+}
+/* End App */
+
+/* Slide */
+.home__slide {
+    background-color: $bg-section;
+    padding: 120px 0;
+    &__title {
+        width: 100%;
+        text-align: center;
+        
+        h3 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #343434;
+            line-height: 40px;
+            padding-bottom: 60px;
+        }
+
+        span {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 14px;
+            letter-spacing: 1px;
+            color: #fbb406;
+        }
+    }
+}
+/* End Slide */
+
+/* Footer About*/
+.home__about {
+    background-color: $bg-section;
+    
+    &__columnLeft {
+        padding-top: 120px;
+
+        h3 {
+            font-size: 56px;
+            font-weight: 500;
+            color: #343434;
+            line-height: 60px;
+            padding-bottom: 60px;
+        }
+
+        &__btnBox {
+            display: flex;
+            align-items: center;
+
+            .btn-wrapper {
+                width: 183px;
+                height: 55px;
+                border: 2px solid #F34242;
+                line-height: 51px;
+                display: inline-block;
+                vertical-align: middle;
+                background: #F34242;
+                text-align: center;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: .1em;
+                color: #fff;
+                border-radius: 27.5px;
+                font-weight: bold;
+                border-radius: 5px;
+                -webkit-transition: all .4s ease;
+                transition: all .4s ease;
+            }
+
+            .btn-apple {
+                border-radius: 50px;
+                -webkit-transition: all .4s ease;
+                transition: all .4s ease;
+            }
+
+            .btn-play {
+                border-radius: 50px;
+                -webkit-transition: all .4s ease;
+                transition: all .4s ease;
+                color: #000;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+/* End Footer About*/
+
+/* Contact */
+.home__contact {
+    background-color: $bg-section;
+    
+    &__title {
+        width: 100%;
+        text-align: center;
+        
+        h3 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #343434;
+            line-height: 40px;
+            padding-bottom: 30px;
+        }
+
+        span {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 14px;
+            letter-spacing: 1px;
+            color: #fbb406;
+        }
+    }
+
+    form {
+        margin: 0 auto;
+        background-color: $bg-section;
+    }
+}
+/* End Contact */

@@ -1,0 +1,37 @@
+// Fonts
+$fonte-base: 'Dosis', sans-serif;
+$text-font: 'Open Sans', sans-serif;
+$font-size: 16px;
+$line-height: 24px;
+
+// Fonts - Weight
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 600;
+$font-bold: 700;
+$font-black: 800;
+
+// Fonts - Size
+$font-size-xl: $font-size + 10;
+$font-size-lg: $font-size + 3;
+$font-size-md: $font-size - 1;
+$font-size-sm: $font-size - 2;
+$font-size-xs: $font-size - 4;
+
+// Colors
+$primary-color: #002F55;
+$secondary-color: #3080E3;
+$alternative-color: rgb(255,221,0);
+
+$title-color: #307fe2;
+$text-color: #727272;
+$border-color: #9b9b9b;
+$bg-section: #FAF8F5;
+
+$white: #fff;
+$black: #000;
+$cinza-claro: #939393;
+$cinza-cimento: #d9d9d9;
+
+// Spacing
+$gap: 15px;

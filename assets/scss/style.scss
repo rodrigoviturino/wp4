@@ -1,0 +1,26 @@
+/*!
+  Theme Name: WP4 Teste Ok
+  Author: Rodrigo Viturino
+  Version: 1.0
+  Description: Criação do tema em wordpress do zero.
+  License: GNU General Public License v3 or later
+  License URI: https://www.gnu.org/licenses/gpl-3.0.pt-br.html
+*/
+
+// Bootstrap 4.3.1 installed using NPM
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Base
+@import "base/variables";
+@import "base/mixins";
+
+// Layout
+@import "layout/header";
+@import "layout/home";
+@import "layout/footer";
+@import "layout/blog";
+
+// Global
+@import "global/app";
+
+// Plugins
