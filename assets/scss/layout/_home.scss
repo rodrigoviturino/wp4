@@ -46,6 +46,14 @@
                     display: inline-block;
                     background-color: transparent;
                     border: solid 2px #000;
+                    text-decoration: none;
+
+                    &:hover {
+                        transition: .5s;
+                        border: none;
+                        background-color: #343434;
+                        color: $white;
+                    }
                 }
 
             }
@@ -87,16 +95,45 @@
 
     &__cards {
 
-        & .card-item {
+        &__card--item {
             text-align: center;
             padding: 70.5px 98px;
             background-color: #fff;
             display: block;
+            border-radius: 6px;
+
+            &:hover {
+                transition: .5s;
+                background-color: #383838;
+
+                h3, p {
+                    color: $white;
+                }
+            }
 
             h3 {
                 font-size: 1.4rem;
                 font-weight: 500;
             }
+
+            &--01 {
+                &:hover {
+                    color: orangered;
+                }                   
+            }
+
+            &--02 {
+                &:hover {
+                color: #53a9ff;
+                }
+            }
+
+            &--03 {
+                &:hover {
+                    color: #ffb907;
+                }
+            }
+
         }
     }
 }

@@ -4,10 +4,16 @@
 
         ul {
             li {
+                
                 a {
                     color: #fff;
                     text-decoration: none;
-                    padding: 0 15px;
+                    padding: 18px 15px;
+
+                    &:hover {
+                        transition: .5s;
+                        background-color: #777;
+                    }
                 }
             }
         }
