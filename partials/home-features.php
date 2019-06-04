@@ -1,8 +1,6 @@
 <div class="home__features__title">
     <span><?php the_field('subtitulo_features'); ?></span>
     <h3><?php the_field('titulo_features'); ?></h3>
-    <!-- <span>Checkout features</span> -->
-    <!-- <h3>Mixup is the only app you’ll need</h3> -->
 </div>
 
 <div class="home__features__cards">

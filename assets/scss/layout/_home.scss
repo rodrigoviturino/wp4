@@ -14,7 +14,7 @@
                 font-family: $fonte-base;
                 font-weight: 700;
                 font-size: 65px;
-                color: #383838;
+                color: $alternative-color;
                 line-height: 70px;
                 text-transform: uppercase;
                 margin-bottom: 30px;
@@ -34,7 +34,7 @@
                     margin-right: 20px;
                 }
                 .btn-wrapper {
-                    color: #383838;
+                    color: $alternative-color;
                     font-weight: 700;
                     font-size: 12px;
                     border-radius: 28px;
@@ -45,13 +45,13 @@
                     line-height: 51px;
                     display: inline-block;
                     background-color: transparent;
-                    border: solid 2px #000;
+                    border: solid 2px $black;
                     text-decoration: none;
 
                     &:hover {
                         transition: .5s;
                         border: none;
-                        background-color: #343434;
+                        background-color: $secondary-color;
                         color: $white;
                     }
                 }
@@ -76,7 +76,7 @@
         margin-bottom: 60px;
 
         h3 {
-            color: #343434;
+            color: $secondary-color;
             font-size: 36px;
             line-height: 40px;
             font-weight: $font-medium;
@@ -89,7 +89,7 @@
             font-size: 14px;
             letter-spacing: 1px;
             line-height: 14px;
-            color: #fbb406;
+            color: $primary-color;
         }
     }
 
@@ -98,13 +98,13 @@
         &__card--item {
             text-align: center;
             padding: 70.5px 98px;
-            background-color: #fff;
+            background-color: $white;
             display: block;
             border-radius: 6px;
 
             &:hover {
                 transition: .5s;
-                background-color: #383838;
+                background-color: $alternative-color;
 
                 h3, p {
                     color: $white;
@@ -130,7 +130,7 @@
 
             &--03 {
                 &:hover {
-                    color: #ffb907;
+                    color: $primary-color;
                 }
             }
 
@@ -148,7 +148,7 @@
         padding-top: 60px;
 
         span {
-            color: #fbb406;
+            color: $primary-color;
             font-weight: 700;
             font-size: 14px;
             text-transform: uppercase;
@@ -158,7 +158,7 @@
             font-size: 36px;
             line-height: 40px;
             font-weight: 600;
-            color: #343434;
+            color: $secondary-color;
             margin-bottom: 60px;
         }
 
@@ -171,10 +171,10 @@
         }
 
         .btn-wrapper {
-            background: -webkit-gradient(left top, right top, color-stop(0%, #ffb907), color-stop(100%, #ffd84f));
-            background: -webkit-gradient(linear, left top, right top, from(#ffb907), to(#ffd84f));
-            background: linear-gradient(to right, #ffb907 0%, #ffd84f 100%);
-            color: #343434;
+            background: -webkit-gradient(left top, right top, color-stop(0%, $primary-color), color-stop(100%, $primary-color));
+            background: -webkit-gradient(linear, left top, right top, from($primary-color), to($primary-color));
+            background: linear-gradient(to right, $primary-color 0%, $primary-color 100%);
+            color: $secondary-color;
             font-size: 12px;
             text-transform: uppercase;
             letter-spacing: .1em;
@@ -189,9 +189,9 @@
             text-decoration: none;
 
             &:hover {
-                background: -webkit-gradient(left top, right top, color-stop(0%, #ffb907), color-stop(100%, #ffd84f));
-                background: -webkit-gradient(linear, left top, right top, from(#ffb907), to(#ffd84f));
-                background: linear-gradient(to right, #343434 0%, #343434 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, $primary-color), color-stop(100%, $primary-color));
+                background: -webkit-gradient(linear, left top, right top, from($primary-color), to($primary-color));
+                background: linear-gradient(to right, $secondary-color 0%, $secondary-color 100%);
                 color: #fff;
                 transition: all .5s;
             }
@@ -220,7 +220,7 @@
         h3 {
             font-size: 36px;
             font-weight: 600;
-            color: #343434;
+            color: $secondary-color;
             line-height: 40px;
             padding-bottom: 60px;
         }
@@ -231,7 +231,7 @@
             font-weight: 700;
             line-height: 14px;
             letter-spacing: 1px;
-            color: #fbb406;
+            color: $primary-color;
         }
     }
 }
@@ -247,7 +247,7 @@
         h3 {
             font-size: 56px;
             font-weight: 500;
-            color: #343434;
+            color: $secondary-color;
             line-height: 60px;
             padding-bottom: 60px;
         }
@@ -308,7 +308,7 @@
         h3 {
             font-size: 36px;
             font-weight: 600;
-            color: #343434;
+            color: $secondary-color;
             line-height: 40px;
             padding-bottom: 30px;
         }
@@ -319,7 +319,7 @@
             font-weight: 700;
             line-height: 14px;
             letter-spacing: 1px;
-            color: #fbb406;
+            color: $primary-color;
         }
     }
 

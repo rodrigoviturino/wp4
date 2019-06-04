@@ -7,6 +7,7 @@
 <?php get_header(); ?>
 
 <section class="blog-page">
+    <h3 class="display-1 text-center">BLOG</h3>
     <div class="container">
         <div class="row">
 

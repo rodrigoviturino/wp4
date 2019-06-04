@@ -1,0 +1,9 @@
+.blog-page {
+    h3 {
+        &:after {
+            content: '';
+            display: block;
+            background-color: $primary-color;
+        }
+    }
+}
