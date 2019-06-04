@@ -3,8 +3,10 @@
         <div class="row">
             <div class="col-md-6 banner__home__columnLeft">
                 <div class="banner__home__columnLeft__title">
-                    <h2>Best app landing page template</h2>
-                    <p>Purchase our premium quality complete landing page template.</p>
+                    <h2> <?php the_field('home_titulo_banner'); ?> </h2>
+                    <p><?php the_field('home_texto_banner'); ?></p>
+                    <!-- <h2>Best app landing page template</h2> -->
+                    <!-- <p>Purchase our premium quality complete landing page template.</p> -->
                     <div class="group-btn">
                         <a href="/wp4_teste/blog" class="btn-wrapper">Get Started</a>
                         <a href="/wp4_teste/blog" class="btn-wrapper">Learn More</a>
